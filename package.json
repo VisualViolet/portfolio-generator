@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-generator",
+  "version": "1.0.0",
+  "description": "A portfolio page built with node.js and the inquirer npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisualViolet/portfolio-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VisualViolet/portfolio-generator/issues"
+  },
+  "homepage": "https://github.com/VisualViolet/portfolio-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
+}
