@@ -3,7 +3,7 @@ function generateImgLink(animal){
     {
         return `http://www.fillster.com/images/pictures/20i.jpg`
     }
-    else if (animal == "Hat")
+    else if (animal == "Cat")
     {
         return `http://www.fillster.com/images/pictures/173v.jpg`
     }
@@ -30,6 +30,8 @@ function generateHTML(answers){
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${answers.name} Portfolio Page</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/style.css" />
     </head>
     <body>
@@ -43,7 +45,7 @@ function generateHTML(answers){
     <footer>
         <h2>Contact Me!</h2>
         <br>
-        <p>Github: <a href="https://github.com/${answers.username}">${answers.username}</a></p>
+        <p>Github: <a href="https://github.com/${answers.username}" target="_blank">${answers.username}</a></p>
         <br>
         <p>Email: <a href="mailto: ${answers.email}">${answers.email}</a></p>
     </footer>
