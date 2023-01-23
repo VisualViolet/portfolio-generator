@@ -8,6 +8,23 @@ body {
     background-color: #ffdbda;
 }
 
+header {
+    margin: 10px;
+}
+
+#bio {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-top: 80px;
+    border: 3px solid #604d53;
+}
+
 footer {
     position: fixed;
     bottom: 0;
