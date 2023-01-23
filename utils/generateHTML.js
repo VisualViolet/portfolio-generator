@@ -1,17 +1,17 @@
 function generateImgLink(animal){
-    if (animal == "hamster")
+    if (animal == "Hamster")
     {
         return `http://www.fillster.com/images/pictures/20i.jpg`
     }
-    else if (animal == "cat")
+    else if (animal == "Hat")
     {
         return `http://www.fillster.com/images/pictures/173v.jpg`
     }
-    else if (animal == "dog")
+    else if (animal == "Dog")
     {
         return `http://www.fillster.com/images/pictures/195p.jpg`
     }
-    else if (animal == "opossum")
+    else if (animal == "Opossum")
     {
         return `http://www.fillster.com/images/pictures/24r.jpg`
     }

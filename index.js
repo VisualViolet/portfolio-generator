@@ -26,7 +26,7 @@ const questions = [
     {
         type: "list",
         message: "Choose a photo:",
-        choices: ["Hamster, Cat, Dog, Opossum, Cow"],
+        choices: ["Hamster", "Cat", "Dog", "Opossum", "Cow"],
         name: "photo",
     }
 ];
